@@ -1,3 +1,9 @@
+git init
+git remote add origin https://github.com/YOUR_USERNAME/sword-generator.git
+git add .
+git commit -m "Initial commit"
+git push -u origin main
+
 import { useState } from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
